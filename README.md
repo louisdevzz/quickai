@@ -4,19 +4,12 @@ Quick AI is a Vietnamese text summarization application built with Python FastAP
 
 ## Features
 
-- 🚀 Fast-loading interface
-- 💬 Natural conversation with AI
-- 📱 Responsive design for all devices
+- 🚀 Fast text summarization
+- 📄 Support multiple summary lengths
 - 🎨 Clean and intuitive UI
 - ⚡ Optimized performance
 
 ## Getting Started
-
-### Prerequisites
-
-- Node.js (v16 or higher)
-- npm or yarn
-- API key for your chosen AI provider
 
 ### Installation
 
