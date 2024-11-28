@@ -24,7 +24,7 @@ cd quickai
 chmod +x download_model.sh
 ./download_model.sh
 ```
-If you want to use another model, you can open the backend folder and use your data to train the model again. Please read the model.py file to change the data file name to your data file name. After run file main.py to train the model.
+If you want to use another youself data, you can open the backend folder and use your data to train the model again. Please read the model.py file to change the data file name to your data file name. After run file main.py to train the model.
 
 3. Run API by docker:
 
