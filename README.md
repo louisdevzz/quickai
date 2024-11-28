@@ -18,27 +18,29 @@ Quick AI is a Vietnamese text summarization application built with Python FastAP
 git clone https://github.com/louisdevzz/quickai.git
 cd quickai
 ```
-2. Install dependencies:
-Install backend dependencies:
+2. Run API by docker:
+start by run.sh:
 ```bash
-cd backend
-python -m venv .venv
-source .venv/bin/activate
-pip install -r requirements.txt
-python3 main.py
+chmod +x run.sh
+./run.sh
+#or
+sudo docker-compose up -d 
+sudo docker-compose logs -f
 ```
-3. Install frontend dependencies:
+stop by stop.sh:
+```bash
+chmod +x stop.sh
+./stop.sh
+#or
+sudo docker-compose down
+```
+3. Install frontend dependencies and start the application:
 ```bash
 cd frontend
 npm install
-```
-4. Start the application:
-```bash
-cd frontend
 npm run dev
 ```
-
-5. Open your browser and navigate to `http://localhost:3000`
+4. Open your browser and navigate to `http://localhost:3000`
 
 ## Development
 
