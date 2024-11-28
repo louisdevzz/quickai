@@ -19,6 +19,7 @@ git clone https://github.com/louisdevzz/quickai.git
 cd quickai
 ```
 2. Run API by docker:
+
 start by run.sh:
 ```bash
 chmod +x run.sh
