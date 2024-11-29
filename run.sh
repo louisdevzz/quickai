@@ -1,7 +1,7 @@
 #!/bin/bash
 
-# Pull the latest images
-sudo docker-compose pull
+# Pull the specific image from Docker Hub
+docker pull louisdevzz04/quickai-api:latest
 
 # Build and start the containers in detached mode
 sudo docker-compose up -d --build
